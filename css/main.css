@@ -1,0 +1,44 @@
+body {}
+
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #034234;
+}
+/* btn design system */
+
+header {
+  width: 100%;
+  background-color: #f6f5f0;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  /* z-index 알아보기 */  
+}
+header > .inner {
+  height: 120px;
+}
+
+section {  
+  width: 100%;  
+  background-color: salmon;  
+}
+
+section > .inner {
+  height: 1200px;
+}
+footer {
+  background-color: #272727;  
+}
+
+footer .inner {
+  padding: 40px 0 60px 0;
+}
+
