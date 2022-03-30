@@ -1,5 +1,6 @@
-body {}
-
+body {
+  background-color: salmon;
+}
 img{
   display: block;
 }
@@ -12,33 +13,52 @@ a{
   position: relative;
   background-color: #034234;
 }
-/* btn design system */
-
+  /* btn design system */
 header {
   width: 100%;
-  background-color: #f6f5f0;
+  background-color: salmon;
   position: fixed;
   top: 0;
   z-index: 9;
+  position: fixed;
   /* z-index 알아보기 */  
 }
 header > .inner {
-  height: 120px;
+    height: 100px;
+    border-bottom: 5px;
+    background-color:bisque;          
+}
+header .inner .container--header .logo {  
+  transform: scale(0.4) translateY(-20px);
+  margin-left: -100px;    
+}
+section {  
+  margin-top: 100px;
+  width: 100%;  
+  background-color: salmon;
+  margin-bottom: 40px;  
+}
+.visual > .inner {
+  background-image: url(../acceptable_poster_1.png);
+  height: 1650px;
 }
 
-section {  
-  width: 100%;  
+.visual--two > .inner {
+  height: 733.33px;
+  padding: 40px 0 60px 0;
+  background-image: url(../try.png);
+  background-repeat: no-repeat;
+  padding: 0px;
+  margin-bottom: 40px;
+ }
+footer {
   background-color: salmon;  
 }
-
-section > .inner {
-  height: 1200px;
-}
-footer {
-  background-color: #272727;  
-}
-
 footer .inner {
+  height: 618.75px;
   padding: 40px 0 60px 0;
+  background-image: url(../hi.jpg);
+  background-repeat: no-repeat;
+  padding: 0px;
+  margin-bottom: 40px;
 }
-
