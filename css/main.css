@@ -1,5 +1,7 @@
 body {
   background-color: salmon;
+  font-family: 'Lato', sans-serif;
+  /* overflow-x: hidden; */
 }
 img{
   display: block;
@@ -20,7 +22,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 9;
-  position: fixed;
+  position: fixed;  
   /* z-index 알아보기 */  
 }
 header > .inner {
@@ -28,10 +30,42 @@ header > .inner {
     border-bottom: 5px;
     background-color:bisque;          
 }
-header .inner .container--header .logo {  
-  transform: scale(0.4) translateY(-20px);
-  margin-left: -100px;    
+header .inner .container__header {  
+  /* background-color:aquamarine; */
+  
 }
+header .inner .container__header .logo {    
+  transform: scale(0.4) translateY(-20px);
+  margin-left: -80px;    
+}
+header .inner .container__header .container__button {  
+  position: absolute;    
+  display: flex;
+  transform: translateY(40%);
+  top: 10%;
+  right: 2.8%;  
+  width: 340px;
+  /* background-color:blueviolet; */
+  justify-content: space-between;
+  }
+  header .inner .container__header .container__button a {  }
+  header .inner .container__header .container__button a li {
+  width: 100px;
+  height: 40px;
+  
+  background-color:aqua;
+  text-align: center;
+  justify-content: end;
+  line-height: 40px;
+  border-radius: 8px;
+  border-style:dashed;
+  color: #034234;
+  border:2px solid #888 ;
+  color: #444;
+  opacity: 0.9;
+  font-weight:100;  
+   }
+
 section {  
   margin-top: 100px;
   width: 100%;  
@@ -42,8 +76,7 @@ section {
   background-image: url(../acceptable_poster_1.png);
   height: 1650px;
 }
-
-.visual--two > .inner {
+.visual__two > .inner {
   height: 733.33px;
   padding: 40px 0 60px 0;
   background-image: url(../try.png);
