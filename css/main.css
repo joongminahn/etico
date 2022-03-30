@@ -1,6 +1,6 @@
 body {
-  background-color: salmon;
-  font-family: 'Lato', sans-serif;
+  background-color:  #1A1249;
+  font-family: 'Lato', sans-serif;  
   /* overflow-x: hidden; */
 }
 img{
@@ -10,15 +10,15 @@ a{
   text-decoration: none;
 }
 .inner {
-  width: 1100px;
+  width: 1400px;
   margin: 0 auto;
   position: relative;
-  background-color: #034234;
+  background-color: #1A1249;
 }
   /* btn design system */
 header {
   width: 100%;
-  background-color: salmon;
+  background-color:bisque;
   position: fixed;
   top: 0;
   z-index: 9;
@@ -51,9 +51,8 @@ header .inner .container__header .container__button {
   header .inner .container__header .container__button a {  }
   header .inner .container__header .container__button a li {
   width: 100px;
-  height: 40px;
-  
-  background-color:aqua;
+  height: 40px;  
+  background-color: #04FDF1;
   text-align: center;
   justify-content: end;
   line-height: 40px;
@@ -63,18 +62,20 @@ header .inner .container__header .container__button {
   border:2px solid #888 ;
   color: #444;
   opacity: 0.9;
-  font-weight:100;  
+  font-weight:400;  
    }
 
 section {  
   margin-top: 100px;
   width: 100%;  
-  background-color: salmon;
-  margin-bottom: 40px;  
+  background-color: #1A1249;
+  margin-bottom: 100px;  
 }
 .visual > .inner {
   background-image: url(../acceptable_poster_1.png);
   height: 1650px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .visual__two > .inner {
   height: 733.33px;
@@ -83,15 +84,16 @@ section {
   background-repeat: no-repeat;
   padding: 0px;
   margin-bottom: 40px;
+  background-position: center;
  }
 footer {
-  background-color: salmon;  
+  background-color:  #1A1249; 
 }
 footer .inner {
-  height: 618.75px;
-  padding: 40px 0 60px 0;
-  background-image: url(../hi.jpg);
-  background-repeat: no-repeat;
-  padding: 0px;
-  margin-bottom: 40px;
+  height: 618px;
+  /* padding: 40px 0 60px 0; */
+  background-image: url(../hi.png);
+  background-repeat: no-repeat;  
+  margin-bottom: 80px;
+  background-position: center;
 }
